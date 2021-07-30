@@ -1,0 +1,53 @@
+const tempData = [
+    {
+        id:1,
+        categoryid:1,
+        designid:1,
+        cupSize:"40ml",
+        category: "Hot cups",
+        cupDesign:"Plain",
+        pkgQuantity: "2000",
+        pkgType: "50 per sleeves x 40 sleeves",
+        price: "10",
+        image: require("../assets/ripple.jpg"),
+    },
+    {
+        id:2,
+        categoryid:1,
+        designid:2,
+        cupSize:"40ml",
+        category: "Hot cups",
+        cupDesign:"1 color",
+        pkgQuantity: "2000",
+        pkgType: "50 per sleeves x 40 sleeves",
+        price: "100",
+        image: require("../assets/Bowl.jpg"),
+    },
+    {
+        id:3,
+        categoryid:1,
+        designid:3,
+        cupSize:"40ml",
+        category: "Hot cups",
+        cupDesign:"2 color",
+        pkgQuantity: "2000",
+        pkgType: "50 per sleeves x 40 sleeves",
+        price: "1000",
+        image: require("../assets/Sea.png"),
+    },
+    {
+        id:4,
+        categoryid:1,
+        designid:4,
+        cupSize:"40ml",
+        category: "Hot cups",
+        cupDesign:"Multi color",
+        pkgQuantity: "2000",
+        pkgType: "50 per sleeves x 40 sleeves",
+        price: 10,
+        image: require("../assets/HandleCup.jpg"),
+    },
+    
+  ]
+  
+  export default tempData;
